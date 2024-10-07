@@ -1,0 +1,200 @@
+* {
+    /* outline: 1px solid green; */
+    font-family: roboto, arial, sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    /* width: 100%; */
+    margin: 0px;
+}
+
+.page {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.changesvgcolor {
+    width: 10%;
+    padding-left: 5em;
+}
+
+.header,
+.subsection2,
+.footer {
+    background-color: #1f2937;
+}
+
+.header-left {
+    display: flex;
+}
+
+.header-right {
+    display: flex;
+    font-size: 10px;
+}
+
+.header-links {
+    padding-left: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.subsection2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:2em;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 5em;
+    padding-top: 1em;
+}
+
+.button1 {
+    display: flex;
+    border-radius: 5px;
+    border-color: blue;
+    background-color: blue;
+    width: 100px;
+    padding: .5em;
+}
+
+.strongcoffee {
+    display: flex;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.coffee {
+    font-size: 18px;
+    font-color: e5e7eb;
+}
+
+.image {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    width:50%;
+}
+
+.image_coffees {
+    display:flex;
+    width:150px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 1em;
+}
+
+.coffees {
+    width: 50px;
+    height: 50px;
+    padding: 1em;
+    margin: 1em;
+    outline: 2px solid blue;
+    border-radius: .5em;
+}
+
+ul {
+    padding-top: 1em;
+    display: flex;
+}
+
+li {
+    color: black;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.bw {
+    color: black;
+}
+
+.quote {
+    display: flex;
+    color: black;
+    background-color: gray;
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.quotesource {
+    font-style: normal;
+    align-self: flex-end;
+    font-size: 16px;
+    padding-right: 20em;
+    color: black;
+    font-weight: bold;
+}
+
+.subsection3 {}
+
+.signupcontainer {
+    margin: 5em;
+    display: flex;
+}
+
+.signup {
+    background-color: blue;
+    color: white;
+    display: flex;
+    padding: 3em;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.signup-left {
+    display: flex;
+    padding-left: 5em;
+}
+
+.signup-right {
+    display: flex;
+    padding-right: 5em;
+}
+
+.button2 {
+    display: flex;
+    border-radius: 5px;
+    background-color: blue;
+    width: 100px;
+    border-color: white;
+    border: 2px solid;
+    padding: .5em;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
